@@ -8,7 +8,6 @@ namespace Lab1
         {
             Console.WriteLine("Hello, World!");
             StartSequence();
-            Console.ReadLine();
         }
 
         static void StartSequence()
@@ -19,6 +18,7 @@ namespace Lab1
             {
                 Console.WriteLine("Array " + populateResult[i] + " ");
             }
+
 
             try
             {
@@ -99,3 +99,6 @@ namespace Lab1
         }
     }
 }
+
+
+
